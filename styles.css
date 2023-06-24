@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background: linear-gradient(300deg, #b1f7ad, #a1f7ff, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+
+h2{
+    color: #065791;
+    font-weight: bold;
+}
+
+h3{
+    color: #11999e;
+}
+
+#resume{
+    background: linear-gradient(300deg, #79ebf7, #1781eb, #47c3d1);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+#aboutme{
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #0377fc, #031cfc);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .portrait{
+    border-radius: 30%;
+  }
+
+  .intro{
+    margin: auto;
+    width: 50%;
+  }
+  
+  .aver{
+    margin: auto;
+  }
+
+  .texto{
+    text-align: left;
+  }
